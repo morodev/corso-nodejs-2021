@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19d1ede-8133-4921-8ba6-701af26b9492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c19d1ede-8133-4921-8ba6-701af26b9492" name="Default Changelist" comment="primo commit, nuovo progetto">
+      <change afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +31,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Morewski\Documents\corso-nodejs-2021\chap-01-javascript-quick-refresher" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="play.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="chap-01-javascript-quick-refresher/play.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,7 +54,16 @@
       <option name="presentableId" value="Default" />
       <updated>1615841162351</updated>
       <workItem from="1615841164367" duration="173000" />
+      <workItem from="1615841372325" duration="1787000" />
     </task>
+    <task id="LOCAL-00001" summary="primo commit, nuovo progetto">
+      <created>1615841450183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615841450183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,11 +79,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primo commit, nuovo progetto" />
+    <option name="LAST_COMMIT_MESSAGE" value="primo commit, nuovo progetto" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="442" key="FileChooserDialogImpl" timestamp="1615841293388">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615842784586">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="442" key="FileChooserDialogImpl/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615841293388" />
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842784586" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1615842257450">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842257450" />
+    <state x="1060" y="442" key="FileChooserDialogImpl" timestamp="1615842782857">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="442" key="FileChooserDialogImpl/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842782857" />
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1615843150230">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1615843150230">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.center/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1615843150230">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.left/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1615843150230">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="401" key="GridCell.Tab.0.right/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1615841459948">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615841459948" />
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615841602211">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615841602211" />
   </component>
 </project>

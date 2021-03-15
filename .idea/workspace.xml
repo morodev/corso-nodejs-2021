@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19d1ede-8133-4921-8ba6-701af26b9492" name="Default Changelist" comment="primo commit, nuovo progetto">
-      <change afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" afterDir="false" />
+    <list default="true" id="c19d1ede-8133-4921-8ba6-701af26b9492" name="Default Changelist" comment="utilizzo di let e const per le variabili">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" beforeDir="false" afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615841162351</updated>
       <workItem from="1615841164367" duration="173000" />
-      <workItem from="1615841372325" duration="1787000" />
+      <workItem from="1615841372325" duration="2548000" />
     </task>
     <task id="LOCAL-00001" summary="primo commit, nuovo progetto">
       <created>1615841450183</created>
@@ -63,7 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615841450183</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="esempio codice Javascript">
+      <created>1615843326777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615843326777</updated>
+    </task>
+    <task id="LOCAL-00003" summary="utilizzo di let e const per le variabili">
+      <created>1615843550243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615843550243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +96,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primo commit, nuovo progetto" />
-    <option name="LAST_COMMIT_MESSAGE" value="primo commit, nuovo progetto" />
+    <MESSAGE value="esempio codice Javascript" />
+    <MESSAGE value="utilizzo di let e const per le variabili" />
+    <option name="LAST_COMMIT_MESSAGE" value="utilizzo di let e const per le variabili" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615842784586">
@@ -98,26 +113,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="442" key="FileChooserDialogImpl/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842782857" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1615843150230">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1615843527810">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1615843150230">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527810" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1615843527809">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1615843150230">
+    <state width="2539" height="401" key="GridCell.Tab.0.center/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527809" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1615843527809">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1615843150230">
+    <state width="2539" height="401" key="GridCell.Tab.0.left/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527809" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1615843527809">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843150230" />
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1615841459948">
+    <state width="2539" height="401" key="GridCell.Tab.0.right/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527809" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1615843551530">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615841459948" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843551530" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615841602211">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

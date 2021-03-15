@@ -5,6 +5,8 @@ var hasMarried = false;
 
 age = 31;
 
+const printPerson =>
+
 function printPerson(name, age, work, hasMarried) {
     return ("Ciao, io sono " + name + ", ed ho " + age + " anni, la mia professione è " + work + ", sono sposato?" + hasMarried);
 }

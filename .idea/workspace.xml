@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19d1ede-8133-4921-8ba6-701af26b9492" name="Default Changelist" comment="utilizzo di let e const per le variabili">
+      <change afterPath="$PROJECT_DIR$/chap-02-understanding-the-basics/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" beforeDir="false" afterPath="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" afterDir="false" />
     </list>
@@ -30,7 +31,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chap-01-javascript-quick-refresher/play.js" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chap-02-understanding-the-basics/server.js" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -39,10 +42,17 @@
       <recent name="C:\Users\Morewski\Documents\corso-nodejs-2021\chap-01-javascript-quick-refresher" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="play.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="chap-01-javascript-quick-refresher/play.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/chap-02-understanding-the-basics">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.play.js" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +63,10 @@
       <option name="presentableId" value="Default" />
       <updated>1615841162351</updated>
       <workItem from="1615841164367" duration="173000" />
-      <workItem from="1615841372325" duration="2548000" />
+      <workItem from="1615841372325" duration="2581000" />
+      <workItem from="1615912766978" duration="29000" />
+      <workItem from="1616172204667" duration="60000" />
+      <workItem from="1616172291631" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="primo commit, nuovo progetto">
       <created>1615841450183</created>
@@ -76,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615843550243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="utilizzo di let e const per le variabili">
+      <created>1615843960857</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615843960857</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,38 +121,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="utilizzo di let e const per le variabili" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615842784586">
+    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616172802296">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842784586" />
+    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616172802296" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1615842257450">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842257450" />
-    <state x="1060" y="442" key="FileChooserDialogImpl" timestamp="1615842782857">
+    <state x="1060" y="442" key="FileChooserDialogImpl" timestamp="1616172800665">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="442" key="FileChooserDialogImpl/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842782857" />
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1615843527810">
+    <state x="1060" y="442" key="FileChooserDialogImpl/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616172800665" />
+    <state width="2539" height="697" key="GridCell.Tab.0.bottom" timestamp="1616174665066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527810" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1615843527809">
+    <state width="2539" height="697" key="GridCell.Tab.0.bottom/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
+    <state width="2539" height="697" key="GridCell.Tab.0.center" timestamp="1616174665066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527809" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1615843527809">
+    <state width="2539" height="697" key="GridCell.Tab.0.center/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
+    <state width="2539" height="697" key="GridCell.Tab.0.left" timestamp="1616174665066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527809" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1615843527809">
+    <state width="2539" height="697" key="GridCell.Tab.0.left/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
+    <state width="2539" height="697" key="GridCell.Tab.0.right" timestamp="1616174665066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843527809" />
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1615843551530">
+    <state width="2539" height="697" key="GridCell.Tab.0.right/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1615843962311">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843551530" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615843962311" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615841602211">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

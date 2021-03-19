@@ -1,12 +1,17 @@
 {
   "name": "chap-02-understanding-the-basics",
   "version": "1.0.0",
-  "description": "",
+  "description": "chap-02",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "luca moro",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git remote -v"
+  }
 }

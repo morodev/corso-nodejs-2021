@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19d1ede-8133-4921-8ba6-701af26b9492" name="Default Changelist" comment="blocking and non-blocking code" />
+    <list default="true" id="c19d1ede-8133-4921-8ba6-701af26b9492" name="Default Changelist" comment="Using the Node modules System">
+      <change afterPath="$PROJECT_DIR$/chap-04-improved-dev-workflow-and-debugging/01-understanding-npm-scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap-04-improved-dev-workflow-and-debugging/01-understanding-npm-scripts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap-04-improved-dev-workflow-and-debugging/01-understanding-npm-scripts/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap-02-understanding-the-basics/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chap-02-understanding-the-basics/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,25 +35,46 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chap-02-understanding-the-basics/server.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chap-04-improved-dev-workflow-and-debugging/01-understanding-npm-scripts/app.js" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Morewski\Documents\corso-nodejs-2021\chap-04-improved-dev-workflow-and-debugging\01-understanding-npm-scripts" />
+      <recent name="C:\Users\Morewski\Documents\corso-nodejs-2021\chap-02-understanding-the-basics\using-the-node-modules-system" />
+      <recent name="C:\Users\Morewski\Documents\corso-nodejs-2021\chap-02-understanding-the-basics\blocking-and-non-blocking-code" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Morewski\Documents\corso-nodejs-2021\chap-01-javascript-quick-refresher" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
+  <component name="RunManager" selected="npm.start">
     <configuration name="play.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="chap-01-javascript-quick-refresher/play.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/chap-02-understanding-the-basics">
       <method v="2" />
     </configuration>
+    <configuration name="understanding-npm-scripts" type="NodeJSConfigurationType" path-to-js-file="01-understanding-npm-scripts/app.js" working-dir="$PROJECT_DIR$/chap-04-improved-dev-workflow-and-debugging">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/chap-04-improved-dev-workflow-and-debugging/01-understanding-npm-scripts/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.play.js" />
       <item itemvalue="Node.js.server.js" />
+      <item itemvalue="Node.js.understanding-npm-scripts" />
+      <item itemvalue="npm.start" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +89,9 @@
       <workItem from="1615841372325" duration="2581000" />
       <workItem from="1615912766978" duration="29000" />
       <workItem from="1616172204667" duration="60000" />
-      <workItem from="1616172291631" duration="3298000" />
+      <workItem from="1616172291631" duration="5369000" />
+      <workItem from="1616182129874" duration="11000" />
+      <workItem from="1616184613717" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="primo commit, nuovo progetto">
       <created>1615841450183</created>
@@ -113,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616180025737</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Using the Node modules System">
+      <created>1616180137549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616180137549</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,41 +174,46 @@
     <MESSAGE value="routing requests" />
     <MESSAGE value="redirecting request and parsing request" />
     <MESSAGE value="blocking and non-blocking code" />
-    <option name="LAST_COMMIT_MESSAGE" value="blocking and non-blocking code" />
+    <MESSAGE value="Using the Node modules System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using the Node modules System" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616172802296">
+    <state x="776" y="384" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616182079437">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616172802296" />
+    <state x="776" y="384" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616182079437" />
+    <state x="1060" y="429" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1616181912417">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="429" key="#com.intellij.ide.macro.MacrosDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616181912417" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1615842257450">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1615842257450" />
-    <state x="1060" y="442" key="FileChooserDialogImpl" timestamp="1616172800665">
+    <state x="1060" y="442" key="FileChooserDialogImpl" timestamp="1616181027491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="442" key="FileChooserDialogImpl/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616172800665" />
-    <state width="2539" height="697" key="GridCell.Tab.0.bottom" timestamp="1616174665066">
+    <state x="1060" y="442" key="FileChooserDialogImpl/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616181027491" />
+    <state width="2539" height="697" key="GridCell.Tab.0.bottom" timestamp="1616182140403">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="697" key="GridCell.Tab.0.bottom/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
-    <state width="2539" height="697" key="GridCell.Tab.0.center" timestamp="1616174665066">
+    <state width="2539" height="697" key="GridCell.Tab.0.bottom/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616182140403" />
+    <state width="2539" height="697" key="GridCell.Tab.0.center" timestamp="1616182140402">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="697" key="GridCell.Tab.0.center/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
-    <state width="2539" height="697" key="GridCell.Tab.0.left" timestamp="1616174665066">
+    <state width="2539" height="697" key="GridCell.Tab.0.center/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616182140402" />
+    <state width="2539" height="697" key="GridCell.Tab.0.left" timestamp="1616182140402">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="697" key="GridCell.Tab.0.left/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
-    <state width="2539" height="697" key="GridCell.Tab.0.right" timestamp="1616174665066">
+    <state width="2539" height="697" key="GridCell.Tab.0.left/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616182140402" />
+    <state width="2539" height="697" key="GridCell.Tab.0.right" timestamp="1616182140403">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="697" key="GridCell.Tab.0.right/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616174665066" />
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1616180027594">
+    <state width="2539" height="697" key="GridCell.Tab.0.right/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616182140403" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2" timestamp="1616180139211">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="420" key="Vcs.Push.Dialog.v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616180027594" />
+    <state x="872" y="420" key="Vcs.Push.Dialog.v2/-1920.144.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616180139211" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615841602211">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
